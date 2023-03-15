@@ -1,28 +1,6 @@
 package com.example.spemini;
 
 import java.util.*;
-/**
- * Hello world!
- */
-/*class mathmethods
-{
-    public mathmethods()
-    {
-
-    }
-
-    public int factorial(int num)
-    {
-        int result = 1;
-        for (int i = 1;i < num+1;i++)
-        {
-            result = result * i;
-        }
-
-        return result;
-    }
-}*/
-
 
 public class Calculator
 {
@@ -30,11 +8,6 @@ public class Calculator
     {
 
     }
-
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
     
     public static int factorial(int num)
     {
