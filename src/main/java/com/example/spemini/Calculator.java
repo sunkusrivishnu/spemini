@@ -78,14 +78,18 @@ public class Calculator
 
             else if (num_operation == 2)
             {
-
+                int num;
+                System.out.print("Please enter the number: ");
+                num = sc.nextInt();
+                int result = factorial(num);
+                System.out.print("The factorial of given number is ");
+                System.out.print(result);
             }
             
             else if(num_operation == 3)
             {
                 int num;
                 num = sc.nextInt();
-                //int result = obj.factorial(num);
                 int result = factorial(num);
                 System.out.println(result);
             }
