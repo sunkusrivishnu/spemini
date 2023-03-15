@@ -73,7 +73,12 @@ public class Calculator
             
             if (num_operation == 1)
             {
-
+                double num;
+                System.out.print("Please enter the number:");
+                num = sc.nextDouble();
+                double result = Math.sqrt(num);
+                System.out.print("The square root  of given number is ");
+                System.out.print(result);
             }
 
             else if (num_operation == 2)
@@ -96,7 +101,15 @@ public class Calculator
 
             else if(num_operation == 4)
             {
-
+                double base;
+                double exponent;
+                System.out.print("Please enter the base: ");
+                base = sc.nextDouble();
+                System.out.print("Please enter the exponent: ");
+                exponent = sc.nextDouble();
+                double result = Math.pow(base, exponent);
+                System.out.print("The result is: ");
+                System.out.print(result);
             }
 
             else if(num_operation == 5)
