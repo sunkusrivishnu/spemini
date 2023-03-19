@@ -30,6 +30,9 @@ public class Calculator
 
         while(true)
         {
+            System.out.println("");
+            // System.out.println("");
+            // System.out.println("");
             System.out.println("-----------------------------------");
             System.out.println("Welcome to calculator program ...!");
             System.out.println("Please select operation to continue");
@@ -38,42 +41,64 @@ public class Calculator
             System.out.println("3. Natural logarithm (base e)");
             System.out.println("4. Power ");
             System.out.println("5. Exit");
+            System.out.println("");
+            // System.out.println("");
+            // System.out.println("");
             System.out.print("Enter operation number: ");
-            System.out.println("-----------------------------------");
+            // System.out.println("-----------------------------------");
             
             int num_operation = 0;
             num_operation = sc.nextInt();
             
             if (num_operation == 1)
             {
+                System.out.println("");
+                System.out.println("Square root of a number .....!");
                 double num;
-                System.out.print("Please enter the number:");
+                System.out.print("Please enter the number: ");
                 num = sc.nextDouble();
                 double result = Math.sqrt(num);
                 System.out.print("The square root  of given number is ");
                 System.out.print(result);
+                System.out.print(" .");
+            
             }
 
             else if (num_operation == 2)
             {
+                System.out.println("");
+                System.out.println("Factorial of a number .....!");
                 int num;
                 System.out.print("Please enter the number: ");
                 num = sc.nextInt();
                 int result = factorial(num);
                 System.out.print("The factorial of given number is ");
                 System.out.print(result);
+                System.out.print(" .");
             }
             
             else if(num_operation == 3)
             {
-                int num;
-                num = sc.nextInt();
-                int result = factorial(num);
-                System.out.println(result);
+                System.out.println("");
+                System.out.println("Natural logarithm of a number .....!");
+                double num;
+                System.out.print("Please enter the number: ");
+                num = sc.nextDouble();
+                if (num < 0)
+                {
+                    System.out.println("Please enter a positive number ... ");
+                    
+                }
+                double result = Math.log(num);
+                System.out.print("The natural logarithm of given number is ");
+                System.out.print(result);
+                System.out.print(" .");
             }
 
             else if(num_operation == 4)
             {
+                System.out.println("");
+                System.out.println("Power of a number .....!");
                 double base;
                 double exponent;
                 System.out.print("Please enter the base: ");
@@ -81,8 +106,9 @@ public class Calculator
                 System.out.print("Please enter the exponent: ");
                 exponent = sc.nextDouble();
                 double result = Math.pow(base, exponent);
-                System.out.print("The result is: ");
+                System.out.print("The result is given by ");
                 System.out.print(result);
+                System.out.print(" .");
             }
 
             else if(num_operation == 5)
