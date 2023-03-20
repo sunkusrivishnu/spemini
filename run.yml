@@ -1,0 +1,14 @@
+---
+- name: Getting image from dockerhub and running it.
+  hosts: all
+  tasks:
+    - name: Start docker service
+      service:
+        name: docker
+        state: started
+
+    - name: Pulling docker image from dockerhub
+      shell: docker pull srivishnusunku/speminicalc
+
+    - name: Running the pulled image in a container
+      shell: docker run -it -d srivishnusunku/speminicalc /bin/bash
