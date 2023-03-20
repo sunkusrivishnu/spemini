@@ -51,7 +51,14 @@ pipeline
         {
             steps
             {
-                sh 'ansible-playbook -i inventory run.yml'    
+                // sh 'ansible-playbook -i inventory run.yml'
+                ansiblePlaybook(
+                    inventory:'inventory',
+                    installation:'Ansible',
+                    limit:'',
+                    playbook:'run.yml',
+                    extras:''
+                    )    
             }
         }
 
