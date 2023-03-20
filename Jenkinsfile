@@ -33,9 +33,12 @@ pipeline
 
         stage("Publishing the docker image")
         {
-            steps
+            steps 
             {
-                sh 'docker push srivishnusunku/speminicalc:latest'
+                withDockerRegistry([ credentialsId: "srivishnusunku", url: "" ]) 
+                {
+                    sh 'docker push srivishnusunku/speminicalc:latest'
+                }
             }
         }
 
