@@ -14,7 +14,7 @@ pipeline
 
         }
 
-        stage("Maven clean")
+        stage("Compiling, testing and packaging with Maven")
         {
             steps 
             {
