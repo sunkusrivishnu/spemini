@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                git url: 'https://github.com/inspiringrai/MINI_PROJECT.git',
+                git url: 'https://github.com/sunkusrivishnu/spemini',
 				branch: 'main',
                 credentialsId: 'GitCredential'
             }
