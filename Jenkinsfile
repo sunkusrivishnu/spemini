@@ -19,7 +19,7 @@ pipeline
             steps 
             {
                 // Maven build, 'sh' specifies it is a shell command
-                sh 'mvn clean'
+                sh 'mvn clean install'
             }
         }
     }
