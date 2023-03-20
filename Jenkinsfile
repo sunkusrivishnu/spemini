@@ -51,7 +51,7 @@ pipeline
         {
             steps
             {
-                ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'run.yml', sudoUser: null
+                sh 'ansible-playbook -i inventory run.yml'    
             }
         }
 
