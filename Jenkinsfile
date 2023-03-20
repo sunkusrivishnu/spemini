@@ -35,10 +35,7 @@ pipeline
         {
             steps
             {
-                withDockerRegistry([ credentialsId: "srivishnusunku", url: "" ]) 
-                {
-                    sh 'docker push srivishnusunku/speminicalc:latest'
-                }
+                sh 'docker push srivishnusunku/speminicalc:latest'
             }
         }
 
