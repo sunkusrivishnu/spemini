@@ -1,4 +1,4 @@
 FROM openjdk
-COPY ./target/MINI_PROJECT-1.0-SNAPSHOT-jar-with-dependencies.jar ./
+COPY ./target/spemini-1.0-SNAPSHOT.jar ./
 WORKDIR ./
 CMD ["java", "-jar", "spemini-1.0-SNAPSHOT.jar"]
