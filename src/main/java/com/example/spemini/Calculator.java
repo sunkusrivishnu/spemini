@@ -18,6 +18,11 @@ public class Calculator
     public static int factorial(int num)
     {
         logr.info("[Find the FACTORIAL of ] - " + num);
+        if (num < 0)
+        {
+            logr.info("[The FACTORIAL of negative number can not be defined] " );
+            return -1;
+        }
         int result = 1;
         for (int i = 1;i < num+1;i++)
         {
@@ -57,13 +62,10 @@ public class Calculator
 
         Scanner sc = new Scanner(System.in);
         
-        // mathmethods obj = new mathmethods();
-
         while(true)
         {
             System.out.println("");
             System.out.println("");
-            // System.out.println("");
             System.out.println("-----------------------------------");
             System.out.println("Welcome to calculator program ...!");
             System.out.println("Please select operation to continue");
@@ -73,10 +75,7 @@ public class Calculator
             System.out.println("4. Power ");
             System.out.println("5. Exit");
             System.out.println("");
-            // System.out.println("");
-            // System.out.println("");
             System.out.print("Enter operation number: ");
-            // System.out.println("-----------------------------------");
             
             int num_operation = 0;
             num_operation = sc.nextInt();
