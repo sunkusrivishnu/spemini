@@ -7,6 +7,9 @@ import org.apache.logging.log4j.Logger;
 
 public class Calculator
 {
+    private final static Logger logr = LogManager.getLogger(Calculator.class);
+
+   
     public Calculator() 
     {
 
@@ -14,30 +17,37 @@ public class Calculator
     
     public static int factorial(int num)
     {
+        logr.info("[Find the FACTORIAL of ] - " + num);
         int result = 1;
         for (int i = 1;i < num+1;i++)
         {
             result = result * i;
         }
-
+        logr.info("[The FACTORIAL of ] - " + num + " is " + result);
         return result;
     }
 
     public static double SquareRoot(double num)
     {
+        logr.info("[Find the squareroot of ] - " + num);
         double result = Math.sqrt(num);
+        logr.info("[The sqaureroot of ] - " + num + " is " + result);
         return result;
     }
 
     public static double naturalLogarithm(double num)
     {
+        logr.info("[Find the naturallogarithm of ] - " + num);
         double result = Math.log(num);
+        logr.info("[The naturallogarithm of ] - " + num + " is " + result);
         return result;
     }
 
     public static double power(double base, double exponent)
     {
+        logr.info("[Find the ] - " + base + " raised " + exponent);
         double result = Math.pow(base, exponent);
+        logr.info("[The base raised to exponent ] - " + " is " + result);
         return result;
     }
 
