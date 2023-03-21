@@ -1,5 +1,5 @@
 package com.example.spemini;
-
+import com.example.spemini.Calculator;
 import java.util.*;
 
 public class Calculator
@@ -17,6 +17,24 @@ public class Calculator
             result = result * i;
         }
 
+        return result;
+    }
+
+    public static double SquareRoot(double num)
+    {
+        double result = Math.sqrt(num);
+        return result;
+    }
+
+    public static double naturalLogarithm(double num)
+    {
+        double result = Math.log(num);
+        return result;
+    }
+
+    public static double power(double base, double exponent)
+    {
+        double result = Math.pow(base, exponent);
         return result;
     }
 
@@ -57,7 +75,7 @@ public class Calculator
                 double num;
                 System.out.print("Please enter the number: ");
                 num = sc.nextDouble();
-                double result = Math.sqrt(num);
+                double result = SquareRoot(num);
                 System.out.print("The square root  of given number is ");
                 System.out.print(result);
                 System.out.print(" .");
@@ -89,7 +107,7 @@ public class Calculator
                     System.out.println("Please enter a positive number ... ");
                     
                 }
-                double result = Math.log(num);
+                double result = naturalLogarithm(num);
                 System.out.print("The natural logarithm of given number is ");
                 System.out.print(result);
                 System.out.print(" .");
@@ -105,7 +123,7 @@ public class Calculator
                 base = sc.nextDouble();
                 System.out.print("Please enter the exponent: ");
                 exponent = sc.nextDouble();
-                double result = Math.pow(base, exponent);
+                double result = power(base, exponent);
                 System.out.print("The result is given by ");
                 System.out.print(result);
                 System.out.print(" .");
