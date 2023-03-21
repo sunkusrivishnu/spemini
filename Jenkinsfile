@@ -52,14 +52,6 @@ pipeline
             steps
             {
                 sh 'ansible-playbook -i inventory run.yml'
-                // ansiblePlaybook(
-                //     inventory:'inventory',
-                //     installation:'Ansible',
-                //     limit:'',
-                //     playbook:'run.yml',
-                //     extras:''
-                //     )
-                // ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'run.yml', sudoUser: null
             }    
         }
     }
