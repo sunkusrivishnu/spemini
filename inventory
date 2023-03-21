@@ -1,2 +1,2 @@
 [ubuntu]
-127.0.0.1 ansible_user='srivishnu' ansible_connection=local
+localhost ansible_user=srivishnu ansible_connection=local
