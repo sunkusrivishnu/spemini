@@ -1,0 +1,74 @@
+22/03/2023:00:16:43 445 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the naturallogarithm of ] - 2.0
+22/03/2023:00:16:43 448 [Calculator.java] [INFO] com.example.spemini.Calculator [The naturallogarithm of ] - 2.0 is 0.6931471805599453
+22/03/2023:00:16:43 451 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the naturallogarithm of ] - 3.0
+22/03/2023:00:16:43 451 [Calculator.java] [INFO] com.example.spemini.Calculator [The naturallogarithm of ] - 3.0 is 1.0986122886681098
+22/03/2023:00:16:43 451 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the naturallogarithm of ] - 7.0
+22/03/2023:00:16:43 452 [Calculator.java] [INFO] com.example.spemini.Calculator [The naturallogarithm of ] - 7.0 is 1.9459101490553132
+22/03/2023:00:16:43 452 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the naturallogarithm of ] - 10.0
+22/03/2023:00:16:43 452 [Calculator.java] [INFO] com.example.spemini.Calculator [The naturallogarithm of ] - 10.0 is 2.302585092994046
+22/03/2023:00:16:43 453 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the naturallogarithm of ] - 6.0
+22/03/2023:00:16:43 453 [Calculator.java] [INFO] com.example.spemini.Calculator [The naturallogarithm of ] - 6.0 is 1.791759469228055
+22/03/2023:00:16:43 460 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the naturallogarithm of ] - 1.0
+22/03/2023:00:16:43 461 [Calculator.java] [INFO] com.example.spemini.Calculator [The naturallogarithm of ] - 1.0 is 0.0
+22/03/2023:00:16:43 462 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the naturallogarithm of ] - 2.718281828459045
+22/03/2023:00:16:43 462 [Calculator.java] [INFO] com.example.spemini.Calculator [The naturallogarithm of ] - 2.718281828459045 is 1.0
+22/03/2023:00:16:43 464 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 0.0 raised 100.0
+22/03/2023:00:16:43 465 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 0.0
+22/03/2023:00:16:43 465 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 1.0 raised 1000.0
+22/03/2023:00:16:43 465 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 1.0
+22/03/2023:00:16:43 466 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 7.0 raised 2.0
+22/03/2023:00:16:43 466 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 49.0
+22/03/2023:00:16:43 466 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 6.0 raised 3.0
+22/03/2023:00:16:43 466 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 216.0
+22/03/2023:00:16:43 467 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 4.0 raised 3.0
+22/03/2023:00:16:43 468 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 64.0
+22/03/2023:00:16:43 473 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 2.0 raised 3.0
+22/03/2023:00:16:43 473 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 8.0
+22/03/2023:00:16:43 474 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 1.0 raised 100.0
+22/03/2023:00:16:43 474 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 1.0
+22/03/2023:00:16:43 474 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 3.0 raised 2.0
+22/03/2023:00:16:43 475 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 9.0
+22/03/2023:00:16:43 475 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 10.0 raised 3.0
+22/03/2023:00:16:43 476 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 1000.0
+22/03/2023:00:16:43 476 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the ] - 8.0 raised 3.0
+22/03/2023:00:16:43 477 [Calculator.java] [INFO] com.example.spemini.Calculator [The base raised to exponent ] -  is 512.0
+22/03/2023:00:16:43 478 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 2
+22/03/2023:00:16:43 479 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 2 is 2
+22/03/2023:00:16:43 480 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 3
+22/03/2023:00:16:43 480 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 3 is 6
+22/03/2023:00:16:43 482 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 7
+22/03/2023:00:16:43 483 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 7 is 5040
+22/03/2023:00:16:43 484 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 10
+22/03/2023:00:16:43 485 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 10 is 3628800
+22/03/2023:00:16:43 486 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 6
+22/03/2023:00:16:43 486 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 6 is 720
+22/03/2023:00:16:43 489 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 6
+22/03/2023:00:16:43 489 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 6 is 720
+22/03/2023:00:16:43 490 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 5
+22/03/2023:00:16:43 490 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 5 is 120
+22/03/2023:00:16:43 491 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 0
+22/03/2023:00:16:43 491 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 0 is 1
+22/03/2023:00:16:43 492 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 1
+22/03/2023:00:16:43 493 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 1 is 1
+22/03/2023:00:16:43 493 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the FACTORIAL of ] - 4
+22/03/2023:00:16:43 494 [Calculator.java] [INFO] com.example.spemini.Calculator [The FACTORIAL of ] - 4 is 24
+22/03/2023:00:16:43 499 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 9.0
+22/03/2023:00:16:43 500 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 9.0 is 3.0
+22/03/2023:00:16:43 500 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 5.0
+22/03/2023:00:16:43 501 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 5.0 is 2.23606797749979
+22/03/2023:00:16:43 501 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 10.0
+22/03/2023:00:16:43 502 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 10.0 is 3.1622776601683795
+22/03/2023:00:16:43 502 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 100.0
+22/03/2023:00:16:43 503 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 100.0 is 10.0
+22/03/2023:00:16:43 504 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 6.0
+22/03/2023:00:16:43 505 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 6.0 is 2.449489742783178
+22/03/2023:00:16:43 508 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 4.0
+22/03/2023:00:16:43 508 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 4.0 is 2.0
+22/03/2023:00:16:43 509 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 9.0
+22/03/2023:00:16:43 509 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 9.0 is 3.0
+22/03/2023:00:16:43 510 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 0.0
+22/03/2023:00:16:43 510 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 0.0 is 0.0
+22/03/2023:00:16:43 511 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 16.0
+22/03/2023:00:16:43 511 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 16.0 is 4.0
+22/03/2023:00:16:43 512 [Calculator.java] [INFO] com.example.spemini.Calculator [Find the squareroot of ] - 100.0
+22/03/2023:00:16:43 514 [Calculator.java] [INFO] com.example.spemini.Calculator [The sqaureroot of ] - 100.0 is 10.0
