@@ -92,7 +92,7 @@ class CalculatorTest
         assertNotEquals(6, scientific_calc.power(1, 1000), 0.0f);
         assertNotEquals(2, scientific_calc.power(7, 2), 0.0f);
         assertNotEquals(1, scientific_calc.power(6, 3), 0.0f);
-        assertNotEquals(0, scientific_calc.power(5, 3), 0.0f);
+        assertNotEquals(0, scientific_calc.power(4, 3), 0.0f);
     }
 
 
