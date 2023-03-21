@@ -47,9 +47,9 @@ pipeline
             }
         }
 
-        // stage("Pulling and running the image")
-        // {
-        //     steps
+        stage("Pulling and running the image")
+        {
+            steps
             {
                 sh 'ansible-playbook -i inventory run.yml'
                 // ansiblePlaybook(
