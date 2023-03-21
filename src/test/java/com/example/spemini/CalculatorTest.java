@@ -15,10 +15,10 @@ class CalculatorTest
     void testSquareRootTP() 
     {
         assertEquals(2.0, scientific_calc.SquareRoot(4), 0.0f);
-        assertEquals(3.0, scientific_calc.factorial(9), 0.0f);
-        assertEquals(0.0, scientific_calc.factorial(0), 0.0f);
-        assertEquals(4.0, scientific_calc.factorial(16), 0.0f);
-        assertEquals(10.0, scientific_calc.factorial(100), 0.0f);
+        assertEquals(3.0, scientific_calc.SquareRoot(9), 0.0f);
+        assertEquals(0.0, scientific_calc.SquareRoot(0), 0.0f);
+        assertEquals(4.0, scientific_calc.SquareRoot(16), 0.0f);
+        assertEquals(10.0, scientific_calc.SquareRoot(100), 0.0f);
     }
 
     // False positives of square root
@@ -88,7 +88,7 @@ class CalculatorTest
     @Test
     void testPowerFP() 
     {
-        assertNotEquals(0, scientific_calc.power(0,100), 0.0f);
+        assertNotEquals(1, scientific_calc.power(0,100), 0.0f);
         assertNotEquals(6, scientific_calc.power(1, 1000), 0.0f);
         assertNotEquals(2, scientific_calc.power(7, 2), 0.0f);
         assertNotEquals(1, scientific_calc.power(6, 3), 0.0f);
