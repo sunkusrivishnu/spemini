@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.spemini.CalculatorTest" time="0.231" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.spemini.CalculatorTest" time="0.782" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/srivishnu/SPE_Mini/spemini/target/surefire/surefirebooter7177424885631354493.jar /home/srivishnu/SPE_Mini/spemini/target/surefire 2023-03-21T21-51-24_487-jvmRun1 surefire6145726257963313575tmp surefire_07676369348840276692tmp"/>
+    <property name="sun.java.command" value="/home/srivishnu/SPE_Mini/spemini/target/surefire/surefirebooter1206253560944249015.jar /home/srivishnu/SPE_Mini/spemini/target/surefire 2023-03-21T22-46-28_798-jvmRun1 surefire2952088139077203696tmp surefire_01500921474065145463tmp"/>
     <property name="surefire.test.class.path" value="/home/srivishnu/SPE_Mini/spemini/target/test-classes:/home/srivishnu/SPE_Mini/spemini/target/classes:/home/srivishnu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/srivishnu/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/srivishnu/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/srivishnu/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/srivishnu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/srivishnu/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:/home/srivishnu/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/home/srivishnu/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/srivishnu"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/srivishnu/SPE_Mini/spemini/target/surefire/surefirebooter7177424885631354493.jar"/>
+    <property name="surefire.real.class.path" value="/home/srivishnu/SPE_Mini/spemini/target/surefire/surefirebooter1206253560944249015.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_362-8u362-ga-0ubuntu1~18.04.1-b09"/>
@@ -59,12 +59,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testLogFP" classname="com.example.spemini.CalculatorTest" time="0.012"/>
+  <testcase name="testLogFP" classname="com.example.spemini.CalculatorTest" time="0.022"/>
   <testcase name="testLogTP" classname="com.example.spemini.CalculatorTest" time="0"/>
   <testcase name="testPowerFP" classname="com.example.spemini.CalculatorTest" time="0.001"/>
   <testcase name="testPowerTP" classname="com.example.spemini.CalculatorTest" time="0.001"/>
-  <testcase name="testFactorialFP" classname="com.example.spemini.CalculatorTest" time="0"/>
-  <testcase name="testFactorialTP" classname="com.example.spemini.CalculatorTest" time="0"/>
+  <testcase name="testFactorialFP" classname="com.example.spemini.CalculatorTest" time="0.001"/>
+  <testcase name="testFactorialTP" classname="com.example.spemini.CalculatorTest" time="0.001"/>
   <testcase name="testSquareRootFP" classname="com.example.spemini.CalculatorTest" time="0.001"/>
-  <testcase name="testSquareRootTP" classname="com.example.spemini.CalculatorTest" time="0.001"/>
+  <testcase name="testSquareRootTP" classname="com.example.spemini.CalculatorTest" time="0"/>
 </testsuite>
