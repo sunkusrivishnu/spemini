@@ -20,7 +20,7 @@ public class Calculator
         logr.info("[Find the FACTORIAL of ] - " + num);
         if (num < 0)
         {
-            logr.info("[The FACTORIAL of negative number can not be defined] " );
+            logr.error("[The FACTORIAL of negative number can not be defined] " );
             return -1;
         }
         int result = 1;
