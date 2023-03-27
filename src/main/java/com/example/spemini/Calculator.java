@@ -9,6 +9,7 @@ public class Calculator
 {
     private final static Logger logr = LogManager.getLogger(Calculator.class);
     // Hello, just adding for a demo ...
+     // Hello, just adding for a demo ...
    
     public Calculator() 
     {
