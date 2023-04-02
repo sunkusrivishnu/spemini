@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Calculator
 {
+    //demo
     private final static Logger logr = LogManager.getLogger(Calculator.class);
     
     public Calculator() 
